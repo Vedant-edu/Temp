@@ -45,17 +45,17 @@ const ScrollingMarquee: React.FC = () => {
 const Features: React.FC = () => {
   const features: FeatureProps[] = [
     {
-      icon: 'star',
+      icon: 'plus',
       title: 'Easily Customizable',
       text: 'Our resume template is easily customizable allowing for seamless customization.',
     },
     {
-      icon: 'plus',
+      icon: 'pentagon',
       title: 'Standard Template',
       text: 'Standard resume template from our collection tailored to various industries and career levels.',
     },
     {
-      icon: 'pentagon',
+      icon: 'star',
       title: 'PDF Downloadable',
       text: 'Download in PDF format using button ready for printing or edit it more using MS Word.',
     },
@@ -64,7 +64,7 @@ const Features: React.FC = () => {
   return (
     <div>
        <ScrollingMarquee />
-      <section className="border-t-2 border-t-black bg-bg py-20 font-base lg:py-[100px]">
+      <section className="border-t-2  border-t-black bg-bg py-20 font-base lg:py-[100px]">
         <h2 className="mb-14 px-5 text-center text-2xl font-heading md:text-3xl lg:mb-20 lg:text-4xl">
           Our Special Features
         </h2>

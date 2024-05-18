@@ -23,8 +23,8 @@ const Navbar = () => {
           <div className="flex items-center min-w-max">
             <a href="/" className="relative flex items-center gap-2.5">
               <span aria-hidden={true} className="flex">
-                <span className="w-3 h-6 rounded-l-full flex bg-blue-500" />
-                <span className="w-3 h-6 rounded-r-full flex bg-bg mt-2" />
+                <span className="w-3 h-6 flex bg-blue-500" />
+                <span className="w-3 h-6 flex bg-bg mt-2" />
               </span>
               <span className="inline-flex text-lg font-bold text-indigo-950">
                 Make My Resume <span className="bg-indigo-50 inline-block border border-dashed border-indigo-600 h-4 ml-3 text-xs">Beta</span>
@@ -122,7 +122,7 @@ const MainPage = () => {
               </p>
             </div>
             <div className="flex flex-1 relative lg:h-auto">
-              <div className="relative h-max lg:absolute left-0 top-0 flex lg:w-auto lg:mx-16">
+              <div className="relative h-max lg:absolute left-0 top-0 flex lg:w-auto lg:mx-16 ">
                 <ImageCard imageUrl={'https://github.com/Vedant-edu/Resumo/blob/main/src/assets/image.png?raw=true'}/>
               </div>
             </div>
