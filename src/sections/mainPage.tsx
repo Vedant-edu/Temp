@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Button from '@/components/Button'
 import img from "../../public/bg.png";
 import ImageCard from '@/components/ImageCard';
+import SparklesText from '@/magicui/sparkles-text';
 
 const Navbar = () => {
   const [navIsOpened, setNavIsOpened] = useState(false);
@@ -73,7 +74,7 @@ const features = [
   },
   {
     id: 3,
-    text: "Easily Customizable",
+    text: "Easily AI Customizable",
   },
   {
     id: 4,
@@ -97,8 +98,9 @@ const MainPage = () => {
         <section className="py-8 courier-prime-regular sm:mt-10 lg:mt-20 mb-28">
           <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row lg:items-stretch gap-x-6">
             <div className="lg:w-[47%] py-4 lg:py-8 xl:py-12 space-y-7">
-              <h1 className="text-black text-3xl/snug sm:text-5xl/tight lg:text-4xl/tight xl:text-5xl/tight font-semibold">
-                Build Resume with Ease in <span className="bg-blue-500/10 inline-block border border-dashed border-blue-500 px-3">Less Time</span>
+              <h1 className=" text-3xl/snug sm:text-5xl/tight lg:text-4xl/tight xl:text-5xl/tight font-semibold">
+                Make Resume with <span className="relative bg-gradient-to-r from-[var(--sparkles-first-color)] to-[var(--sparkles-second-color)] bg-clip-text text-transparent"><SparklesText text="Copilot AI*"/></span> <span className="bg-blue-500/10  border border-dashed border-blue-500 px-3 hidden">Less Time
+                </span>
               </h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 sm:gap-x-8 gap-y-6 ">
                 {features.map(feature => (
@@ -118,7 +120,8 @@ const MainPage = () => {
                   <path d="M9 18h6" />
                   <path d="M10 22h4" />
                 </svg>
-                Prefer Laptop and auto-saving is unavailable
+                Prefer Laptop and auto-saving is unavailable <br />*Supported in MS Edge Browser
+                
               </p>
             </div>
             <div className="flex flex-1 relative lg:h-auto">

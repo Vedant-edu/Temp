@@ -7,7 +7,7 @@ export default function Community() {
     },
     {
       fullName: 'Mayur M',
-      jobTitle: 'TnP Cordinator',
+      jobTitle: 'Student',
       review: 'This is an excellent platform with great resources and support. I love the intuitive design and ease of use of this platform.',
     },
     

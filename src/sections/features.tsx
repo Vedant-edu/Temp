@@ -47,7 +47,7 @@ const Features: React.FC = () => {
     {
       icon: 'plus',
       title: 'Easily Customizable',
-      text: 'Our resume template is easily customizable allowing for seamless customization.',
+      text: 'Our resume template is easily customizable, using copilot write/ re-write content using AI in MS Edge Browser.',
     },
     {
       icon: 'pentagon',
