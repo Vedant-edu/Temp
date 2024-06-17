@@ -25,8 +25,8 @@ const Navbar = ({ handleDownload }) => {
           <div className="flex items-center min-w-max">
             <a href="/" className="relative flex items-center gap-2.5">
               <span aria-hidden={true} className="flex">
-                <span className="w-3 h-6 rounded-l-full flex bg-pink-500" />
-                <span className="w-3 h-6 rounded-r-full flex bg-rose-500 mt-2" />
+              <span className="w-3 h-6 flex bg-blue-500" />
+                <span className="w-3 h-6 flex bg-bg mt-2" />
               </span>
               <span className="inline-flex text-lg font-bold text-indigo-950 ">
                 Make My Resume{" "}
