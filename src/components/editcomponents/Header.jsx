@@ -30,13 +30,11 @@ const Navbar = ({ handleDownload }) => {
               </span>
               <span className="inline-flex text-lg font-bold text-indigo-950 ">
                 Make My Resume{" "}
-                <span className="bg-indigo-50 inline-block border border-dashed border-indigo-600 h-4 ml-3 text-xs">
-                  Beta
-                </span>
+                
               </span>
             </a>
           </div>
-          <p className='border rounded p-1 text-sm flex h-12 border-blue-500 bg-blue-200/50 text-center '> Auto-saving is currently off</p>
+          
           <button
             onClick={handleDownload}
             className="relative flex justify-center px-6  py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-blue-600  text-indigo-600 dark:text-white hover:before:scale-105"
@@ -83,7 +81,7 @@ export default function Header() {
       setButtonVisible(true);
       setHeaderVisible(true);
       window.print();
-    }, 1800);
+    }, 2200);
   };
 
   return (
