@@ -28,7 +28,7 @@ const Navbar = () => {
                 <span className="w-3 h-6 flex bg-bg mt-2" />
               </span>
               <span className="inline-flex text-lg font-bold text-indigo-950">
-                Make My Resume <span className="bg-indigo-50 inline-block border border-dashed border-indigo-600 h-4 ml-3 text-xs">Beta</span>
+                Make My Resume 
               </span>
             </a>
           </div>

@@ -39,6 +39,7 @@ const FooterItem: React.FC<FooterItemProps> = ({ id, text, link }) => {
 
 export default function Footer() {
   return (
+    <>
     <footer className="m500:text-sm z-30 bg-bg px-5 py-5 text-center font-base">
       <div className="max-w-7xl mx-auto text-bold ml-0 px-6 lg:ml-auto text-center lg:text-left">
         Crafted with 💖 by<br />
@@ -59,6 +60,16 @@ export default function Footer() {
           </ul>
         </nav>
       </div>
+      
     </footer>
+    <div className="text-md font-bold grid grid-cols-6">
+        <div className="h-4 bg-yellow-400"></div>
+        <div className="h-4 bg-pink-400"></div>
+        <div className="h-4 bg-gray-400"></div>
+        <div className="h-4 bg-indigo-400"></div>
+        <div className="h-4 bg-blue-400"></div>
+        <div className="h-4 bg-green-400"></div>
+      </div>
+    </>
   );
 }
